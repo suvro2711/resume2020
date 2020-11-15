@@ -1,5 +1,18 @@
-import React from "react"
-
-export default function Home() {
-  return <div>Hello world!</div>
+import React from 'react'
+import { Link } from 'gatsby'
+import Earth from 'components/rotatingEarth'
+function Home() {
+  return (
+    <div>
+      {/* <Link to='/skills'>skills</Link>
+      <Link to='/contacts'>contacts</Link>
+      <Link to='/articles'>articles</Link>
+      <Link to='/projects'>projects</Link> */}
+      <Earth></Earth>
+      <img className="threePics"></img>
+    </div>
+  )
 }
+
+export default Home
+

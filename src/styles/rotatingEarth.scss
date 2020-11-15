@@ -1,0 +1,54 @@
+.hangBox{
+    position: relative;
+    border-style: dotted;
+    border-color: blueviolet;
+    width: 99.5vw;
+    height: 55vw;
+    overflow: hidden;
+}
+
+.earth{
+    width: 100%;
+    height: 100%;
+}
+
+.earthSVG{
+    width: 100%;
+    height: 100%;
+}
+
+.masker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50%;
+    left:-51%;
+}
+
+.maskerSVG{
+    width: 200%;
+    height: 200%;
+    /* border-style: dotted;
+    border-color: brown; */
+}
+
+.rotatingEarth{
+    height: 110%;
+    width: 110%;
+    top:-10%;
+    left: -5%;
+    position: absolute;
+    border-style: dotted;
+    border-color: brown;
+}
+
+.threePics{
+    border-style: dotted;
+    border-color: brown;
+    border-radius: 220px;
+    position: absolute;
+    width: 11%;
+    height: 24%;
+    top: 20%;
+    left:20%;
+}
