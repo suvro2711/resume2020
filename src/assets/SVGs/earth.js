@@ -1,13 +1,11 @@
 import React from 'react'
 
-const earthSVG = () => {
+const earth = () => {
     return (
         <svg className="earthSVG"
             xmlns="http://www.w3.org/2000/svg"
-            width='100%'
-            height='100%'
-            // width="5479.542"
-            // height="3375.897"
+            width="5479.542"
+            height="3375.897"
             version="1.1"
             viewBox="0 0 1449.795 893.206"
         >
@@ -642,8 +640,7 @@ const earthSVG = () => {
                 </g>
             </g>
         </svg>
-
     )
 }
 
-export default earthSVG
+export default earth

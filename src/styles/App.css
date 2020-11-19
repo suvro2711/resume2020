@@ -1,0 +1,76 @@
+.hangBox{
+    position: relative;
+    /* border-style: dotted;
+    border-color: blueviolet; */
+    width: 99.5vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(33 , 35, 67);
+
+  }
+
+.earth{
+    width: 450%;
+    height: 450%;
+    border-style: dotted;
+    border-color: blue;
+    position: absolute;
+    top: -240%;
+    left: -40%;
+    
+    /* visibility: hidden; */
+}
+
+.earthSVG{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.masker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50%;
+    left:-51%;
+}
+
+.maskerSVG{
+    width: 200%;
+    height: 200%;
+    /* border-style: dotted;
+    border-color: brown; */
+}
+
+.rotatingEarth{
+    position: absolute;
+    border-radius: 300px;
+    overflow: hidden;
+    /* min-width: 120px;
+    min-height: 120px; */
+    width: 8%;
+    height: 40%;
+    left: 27%;
+    top:60%;
+}
+
+.root{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+  }

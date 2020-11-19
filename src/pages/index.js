@@ -1,18 +1,20 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Earth from 'components/rotatingEarth'
-function Home() {
+import React from 'react';
+import '../styles/App.css';
+import RotatingEarth from '../components/rotatingEarth'
+import Sun from '../assets/SVGs/Sun'
+
+function App() {
   return (
-    <div>
-      {/* <Link to='/skills'>skills</Link>
-      <Link to='/contacts'>contacts</Link>
-      <Link to='/articles'>articles</Link>
-      <Link to='/projects'>projects</Link> */}
-      <Earth></Earth>
-      <img className="threePics"></img>
+    <div className="root">
+      <div className="hangBox">
+        <Sun styles={{
+          height: '140%',
+          zindex: '9'
+        }}></Sun>
+        <RotatingEarth></RotatingEarth>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Home
-
+export default App;
